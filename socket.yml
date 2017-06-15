@@ -1,11 +1,10 @@
 name: markdown-converter
 description: Simple Markdown do HTML converter
-version: 0.0.1
+version: 0.0.2
 keywords:
   - markdown
   - html
   - converter
-
 endpoints:
   convert:
     description: Convert Markdown to HTML
@@ -18,12 +17,10 @@ endpoints:
     response:
       mimetype: text/html
       examples:
-        -
-          exit_code: 200
+        - exit_code: 200
           description: Success
           example: <p>Hello <em>World</em>!</p>
-        -
-          exit_code: 400
+        - exit_code: 400
           description: Failed
           example: |
             {

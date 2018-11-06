@@ -8,13 +8,13 @@ keywords:
 endpoints:
  convert:
    description: Convert Markdown to HTML
-   input:
+   inputs:
     parameters:
       content:
         type: string
         description: Markdown content
         example: Hello *World*!
-   output:   
+   outputs:   
     success:
       exit_code: 200
       description: Success

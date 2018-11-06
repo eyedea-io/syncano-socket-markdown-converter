@@ -2,27 +2,27 @@ name: markdown-converter
 description: Simple Markdown do HTML converter
 version: 0.0.2
 keywords:
-  - markdown
-  - html
-  - converter
+ - markdown
+ - html
+ - converter
 endpoints:
-  convert:
-    description: Convert Markdown to HTML
-    file: scripts/convert.js
+ convert:
+   description: Convert Markdown to HTML
+   input:
     parameters:
       content:
         type: string
         description: Markdown content
         example: Hello *World*!
-    response:
-      mimetype: text/html
-      examples:
-        - exit_code: 200
-          description: Success
-          example: <p>Hello <em>World</em>!</p>
-        - exit_code: 400
-          description: Failed
-          example: |
-            {
-              "message": "Conversion failed!"
-            }
+   output:   
+    success:
+      exit_code: 200
+      description: Success
+      example: <p>Hello <em>World</em>!</p>
+    fail:
+      exit_code: 400
+      description: Failed
+      example: |
+        {
+          “message”: “Conversion failed!”
+        }

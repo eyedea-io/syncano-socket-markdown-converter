@@ -12,4 +12,5 @@ describe('generate', function () {
     expect(result).toHaveProperty('code', 200)
     expect(result).toHaveProperty('data', '<p>Hello <em>World</em>!</p>')
   })
+  
 })

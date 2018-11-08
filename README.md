@@ -27,7 +27,7 @@ Use it:
 ```js
 import Syncano from '@syncano/client'
 
-const s = new Syncano(<instaneName>)
+const s = new Syncano(<instanceName>)
 
 const params = {
     content: 'Hello *World*!'

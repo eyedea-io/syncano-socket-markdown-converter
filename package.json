@@ -1,14 +1,15 @@
 {
   "name": "@eyedea-sockets/syncano-socket-markdown-converter",
-  "version": "0.0.1",
-  "description": "Description",
+  "version": "0.0.2",
+  "description": "Simple Markdown do HTML converter",
   "repository": "https://github.com/eyedea-io/syncano-socket-markdown-converter.git",
   "public": true,
   "author": "Eyedea <hello@eyedea.io> https://eyedea.io",
   "license": "MIT",
   "keywords": [
-    "syncano",
-    "socket"
+    "markdown",
+    "html",
+    "converter"
   ],
   "peerDependencies": {
     "@syncano/cli": "^0.13.0-alpha.f6ea95d4"

@@ -1,10 +1,4 @@
 name: markdown-converter
-description: Simple Markdown do HTML converter
-version: 0.0.2
-keywords:
- - markdown
- - html
- - converter
 endpoints:
  convert:
    description: Convert Markdown to HTML

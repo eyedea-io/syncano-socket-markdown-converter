@@ -16,7 +16,6 @@ class Endpoint extends S.Endpoint {
       response.json({message: 'Conversion failed!'}, 400)
      }
   }
-
 }
 
 export default ctx => new Endpoint(ctx)
